@@ -1,0 +1,88 @@
+<html>
+<head>
+<section scripts>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="mycss.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript">/* Set the width of the side navigation to 250px */
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "200px";
+  }
+
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+
+
+  </script>
+
+</section>
+</head>
+<body>
+
+
+  <div id="mySidenav" class="sidenav">
+    <p><img id="sideimg" src="image.jpg"></p>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close</a>
+    <a href="#">About</a>
+    <a href="#">Experience</a>
+    <a href="#">Education</a>
+    <a href="#">Contact</a>
+  </div>
+
+<span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;open</span>
+
+
+<div id="main" class="main-content">
+<div class="jumbotron text-center">
+
+  <h1>Karan Verma</h1>
+  <p>Software Developer based in Ottawa, ON</p>
+</div>
+
+<div class="experience">
+  <strong><h1 style="color:blue">Experience</h1></strong>
+  <p><h3><strong>TITUS</strong></h3></p>
+  <p><h4>Sept 2017- Present</h4></p>
+  <ul>
+
+    <li>C#, JavaScript, React framework, HTML Development using TDD</li>
+    <li>Contributed to the OAuth framework, adding an easier way for new and existing users to register and sign in</li>
+    <li>Worked closely with the development team, QA and management to create a high quality evolving application with changing requirements</li>
+
+  </ul>
+
+  <p><h3><strong>Hubtrek Corp</strong></h3></p>
+  <p><h4>Jan 2017- Apr 2017</h4></p>
+  <ul>
+    <li>Varied role including Development(AngularJS, mongoDB) and sales</li>
+    <li>Responsible for full stack development</li>
+  </ul>
+
+</div>
+
+</br>
+
+<div class="education">
+  <h1 style="color:blue">Education</h1>
+  <p><h3><strong>Carleton University</strong></h3></p>
+  <p><h4>Sept 2012 - Apr 2017</h4></p>
+  <p>Bachelor's of Computer Science with a minor in Psychology</p>
+</div>
+
+
+</div>
+
+
+</body>
+</html>
